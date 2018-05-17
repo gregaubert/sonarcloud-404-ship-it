@@ -1,15 +1,41 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">
 
   <style>
-    body {
+    body,
+    h1,
+    h2,
+    p,
+    button,
+    a {
       font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
     }
 
     h1 {
-      font-size: 40px;
+      font-size: 66px;
+      font-weight: 900;
+      margin: 0;
+    }
+
+    .content {
+      position: relative;
+      min-width: 1000px;
+      width: 100%;
+    }
+
+    .site-logo {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      width: 240px;
     }
 
     .cover {
@@ -24,34 +50,59 @@
       justify-content: center;
     }
 
+    .error {
+      padding: 40px;
+      max-width: 500px;
+    }
+
+    .error p {
+      font-size: 20px;
+    }
+
     .monsters {
-      background-color: #222222;
+      background-color: #2E3234;
     }
 
     .monsters img {
       vertical-align: middle;
     }
 
-    .error {
-      
+    .text-red {
+      color: #C9232C;
+    }
+
+    a {
+      display: inline-block;
+      font-size: 16px;
+      text-decoration: none;
+      padding: 12px 18px;
+      color: white;
+      background-color: #C9232C;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
     }
 
   </style>
 </head>
 
 <body>
-  <div class="cover">
-    <div class="page">
-      <div class="error">
-        <h2>404</h2>
-        <h1>Bug's Family took the full control...</h1>
-        <p>This page has been eaten by the family....</p>
-        <p>We can't seem to find the page you're looking for.</p>
-        <button>Go back home</button>
+  <div class="content">
+    <img class="site-logo" src="logo.svg" />
+    <div class="cover">
+      <div class="page">
+        <div class="error">
+          <h2>
+            <span class="text-red">404 </span>Page not found
+          </h2>
+          <h1>Bug's Dynasty took the full control...</h1>
+          <p>This page has been eaten by the family.... We can't seem to find the page you're looking for.</p>
+          <a href="https://">Go back home</a>
+        </div>
       </div>
-    </div>
-    <div class="page monsters">
-      <img width="80%" src="monsters.svg" />
+      <div class="page monsters">
+        <img width="80%" src="monsters.svg" />
+      </div>
     </div>
   </div>
 </body>
