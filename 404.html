@@ -56,7 +56,7 @@
       height: 100%;
       display: flex;
       background-color: #2E3234;
-      background-image: url('img/round.svg');
+      background-image: url('images/404/round.svg');
       background-repeat: no-repeat;
       background-size: 70%;
     }
@@ -384,7 +384,7 @@
   <div class="content">
     <div class="page active">
       <div class="layer layer1">
-        <img class="site-logo" src="img/logo.svg" />
+        <img class="site-logo" src="images/404/logo.svg" />
         <div class="cover">
           <div class="column">
             <div class="error">
@@ -398,7 +398,7 @@
           </div>
           <div class="column">
             <div class="monsters">
-              <img width="500px" src="img/monsters.svg" />
+              <img width="500px" src="images/404/monsters.svg" />
               <br/>
               <br/>
               <h1>...bug's Dynasty took the full control!</h1>
@@ -407,7 +407,7 @@
               <span class="hint-message"></span>
               <br/>
               <br/>
-              <img width="25px" src="img/arrow-down.svg" class="blink" />
+              <img width="25px" src="images/404/arrow-down.svg" class="blink" />
             </div>
           </div>
         </div>
@@ -416,60 +416,60 @@
 
     <div class="page">
       <div class="layer layer1">
-        <img class="animated" src="img/Screen1/Screen-1-2.svg">
+        <img class="animated" src="images/404/Screen1/Screen-1-2.svg">
       </div>
       <div class="layer layer2">
-        <img class="animated" src="img/Screen1/Screen-1-3.svg">
+        <img class="animated" src="images/404/Screen1/Screen-1-3.svg">
       </div>
     </div>
     <div class="page">
       <div class="layer layer4">
-        <img class="animated" src="img/Screen2/Screen-2-2.svg">
+        <img class="animated" src="images/404/Screen2/Screen-2-2.svg">
       </div>
       <div class="layer layer3">
-        <img class="animated" src="img/Screen2/Screen-2-3.svg">
+        <img class="animated" src="images/404/Screen2/Screen-2-3.svg">
       </div>
       <div class="layer layer2">
-        <img class="animated" src="img/Screen2/Screen-2-4.svg">
+        <img class="animated" src="images/404/Screen2/Screen-2-4.svg">
       </div>
       <div class="layer layer1">
-        <img class="animated" src="img/Screen2/Screen-2-5.svg">
+        <img class="animated" src="images/404/Screen2/Screen-2-5.svg">
       </div>
     </div>
     <div class="page">
       <div class="layer layer2">
-        <img class="animated" src="img/Screen3/Screen-3-2.svg">
+        <img class="animated" src="images/404/Screen3/Screen-3-2.svg">
       </div>
       <div class="layer layer1">
-        <img class="animated" src="img/Screen3/Screen-3-1.svg">
+        <img class="animated" src="images/404/Screen3/Screen-3-1.svg">
       </div>
       <div class="layer layer3">
-        <img class="animated" src="img/Screen3/Screen-3-3.svg">
+        <img class="animated" src="images/404/Screen3/Screen-3-3.svg">
       </div>
     </div>
     <div class="page">
       <div class="layer layer2">
-        <img class="animated" src="img/Screen4/Screen-4-4.svg">
+        <img class="animated" src="images/404/Screen4/Screen-4-4.svg">
       </div>
       <div class="layer layer1">
-        <img class="animated" src="img/Screen4/Screen-4-1.svg">
+        <img class="animated" src="images/404/Screen4/Screen-4-1.svg">
       </div>
       <div class="layer layer4">
-        <img class="animated" src="img/Screen4/Screen-4-3.svg">
+        <img class="animated" src="images/404/Screen4/Screen-4-3.svg">
       </div>
       <div class="layer layer3">
-        <img class="animated" src="img/Screen4/Screen-4-2.svg">
+        <img class="animated" src="images/404/Screen4/Screen-4-2.svg">
       </div>
     </div>
     <div class="page">
       <div class="layer layer1">
-        <img class="animated" src="img/Screen5/Screen-5-1.svg">
+        <img class="animated" src="images/404/Screen5/Screen-5-1.svg">
       </div>
       <div class="layer layer2">
-        <img class="animated" src="img/Screen5/Screen-5-2.svg">
+        <img class="animated" src="images/404/Screen5/Screen-5-2.svg">
       </div>
       <div class="layer layer3">
-        <img class="animated" src="img/Screen5/Screen-5-3.svg">
+        <img class="animated" src="images/404/Screen5/Screen-5-3.svg">
       </div>
     </div>
     <div class="page">
@@ -616,6 +616,19 @@
           }
         });
       }
+
+      let ticking = false;
+      document.addEventListener('mousewheel', function (event) {
+        if (!ticking) {
+          if (event.deltaY > 0) {
+            nextPage();
+          } else if (event.deltaY < 0) {
+            previousPage();
+          }
+          setTimeout(() => ticking = false, 900);
+          ticking = true;
+        }
+      });
     })();
   </script>
 </body>
