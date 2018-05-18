@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4091 9686 1920 1558.974">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4091 9686 1920 1200">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_1-1_7);
+        clip-path: url(#clip-Screen-3_3);
       }
 
       .cls-2 {
@@ -142,12 +142,12 @@
     </linearGradient>
     <linearGradient id="linear-gradient-7" x1="0.5" y1="1.002" x2="0.5" y2="0" xlink:href="#linear-gradient-6"/>
     <linearGradient id="linear-gradient-8" x1="-104.717" y1="0.995" x2="-104.717" y2="-0.003" xlink:href="#linear-gradient-5"/>
-    <clipPath id="clip-Screen_1-1_7">
-      <rect x="-4091" y="9686" width="1920" height="1558.974"/>
+    <clipPath id="clip-Screen-3_3">
+      <rect x="-4091" y="9686" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_1-1_7" data-name="Screen 1-1 – 7" class="cls-1">
-    <g id="Groupe_331" data-name="Groupe 331" transform="translate(-2921.854 9914.109)">
+  <g id="Screen-3_3" data-name="Screen-3–3" class="cls-1">
+    <g id="Groupe_331" data-name="Groupe 331" transform="translate(-2921.854 9767.109)">
       <g id="Groupe_309" data-name="Groupe 309">
         <g id="Groupe_308" data-name="Groupe 308">
           <path id="Tracé_1072" data-name="Tracé 1072" class="cls-2" d="M5.171,80.8A5.105,5.105,0,0,1,0,75.633V5.171A5.105,5.105,0,0,1,5.171,0H54.462a5.105,5.105,0,0,1,5.171,5.171V75.633A5.105,5.105,0,0,1,54.462,80.8Z"/>
@@ -177,8 +177,8 @@
       <path id="Tracé_1088" data-name="Tracé 1088" class="cls-13" d="M49.674,23.9l.808.808H4.1l.646-.808Z" transform="translate(2.526 14.724)"/>
       <path id="Tracé_1089" data-name="Tracé 1089" class="cls-13" d="M49.674,26.408l.808-.808H4.1l.646.808Z" transform="translate(2.526 15.772)"/>
     </g>
-    <text id="_19" data-name="19" class="cls-14" transform="translate(-3027 9980)"><tspan x="0" y="0">19</tspan></text>
-    <g id="Groupe_332" data-name="Groupe 332" transform="translate(-2857.21 9914.109)">
+    <text id="_19" data-name="19" class="cls-14" transform="translate(-3027 9833)"><tspan x="0" y="0">19</tspan></text>
+    <g id="Groupe_332" data-name="Groupe 332" transform="translate(-2857.21 9767.109)">
       <g id="Groupe_309-2" data-name="Groupe 309">
         <g id="Groupe_308-2" data-name="Groupe 308">
           <path id="Tracé_1072-2" data-name="Tracé 1072" class="cls-2" d="M5.171,80.8A5.105,5.105,0,0,1,0,75.633V5.171A5.105,5.105,0,0,1,5.171,0H54.462a5.105,5.105,0,0,1,5.171,5.171V75.633A5.105,5.105,0,0,1,54.462,80.8Z"/>

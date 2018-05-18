@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6263 9686 1920 1558.974">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6183 9686 1920 1200">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_1-1_6);
+        clip-path: url(#clip-Screen-3_1);
       }
 
       .cls-2 {
@@ -52,13 +52,13 @@
         stroke-miterlimit: 10;
       }
     </style>
-    <clipPath id="clip-Screen_1-1_6">
-      <rect x="-6263" y="9686" width="1920" height="1558.974"/>
+    <clipPath id="clip-Screen-3_1">
+      <rect x="-6183" y="9686" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_1-1_6" data-name="Screen 1-1 – 6" class="cls-1">
-    <ellipse id="Ellipse_141" data-name="Ellipse 141" class="cls-2" cx="204.138" cy="29.724" rx="204.138" ry="29.724" transform="translate(-5287.746 10471.666)"/>
-    <g id="Groupe_330" data-name="Groupe 330" transform="translate(-5292.435 10067.64)">
+  <g id="Screen-3_1" data-name="Screen-3–1" class="cls-1">
+    <ellipse id="Ellipse_141" data-name="Ellipse 141" class="cls-2" cx="204.138" cy="29.724" rx="204.138" ry="29.724" transform="translate(-5207.746 10324.666)"/>
+    <g id="Groupe_330" data-name="Groupe 330" transform="translate(-5212.435 9920.64)">
       <path id="Tracé_1090" data-name="Tracé 1090" class="cls-3" d="M65.428,43.2s-30.77-19.557-27.9-30.77S5.974,35.64,45.871,70.06" transform="translate(42.587 16.535)"/>
       <path id="Tracé_1091" data-name="Tracé 1091" class="cls-4" d="M29.848,15.7S20.2,33.953,40.017,52.728c13.3,12.777,14.342-8.605,6.519-14.6C38.453,32.128,29.848,15.7,29.848,15.7Z" transform="translate(44.268 25.262)"/>
       <path id="Tracé_1092" data-name="Tracé 1092" class="cls-3" d="M107.9,43.2s30.77-19.557,27.9-30.77,31.552,23.208-8.344,57.629" transform="translate(173.523 16.535)"/>

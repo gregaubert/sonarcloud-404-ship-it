@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1999 9686 1920 1558.974">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1999 9686 1920 1200">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_1-1_8);
+        clip-path: url(#clip-Screen-3_2);
       }
 
       .cls-2 {
         fill: #2e3234;
       }
     </style>
-    <clipPath id="clip-Screen_1-1_8">
-      <rect x="-1999" y="9686" width="1920" height="1558.974"/>
+    <clipPath id="clip-Screen-3_2">
+      <rect x="-1999" y="9686" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_1-1_8" data-name="Screen 1-1 – 8" class="cls-1">
-    <g id="Groupe_333" data-name="Groupe 333" transform="translate(-7121 -1305)">
+  <g id="Screen-3_2" data-name="Screen-3–2" class="cls-1">
+    <g id="Groupe_333" data-name="Groupe 333" transform="translate(-7121 -1655)">
       <rect id="Rectangle_238" data-name="Rectangle 238" class="cls-2" width="1972" height="420" transform="translate(5094 11941)"/>
       <rect id="Rectangle_239" data-name="Rectangle 239" width="1972" height="363" transform="translate(5094 12310)"/>
       <rect id="Rectangle_240" data-name="Rectangle 240" width="626" height="83" rx="41.5" transform="translate(4961 12231)"/>
