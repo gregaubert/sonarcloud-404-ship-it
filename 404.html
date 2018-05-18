@@ -17,6 +17,13 @@
     body {
       margin: 0;
       overflow: hidden;
+      min-width: 1500px;
+      background-color: #2E3234;
+      background-image: url('img/round.svg');
+      background-repeat: no-repeat;
+      background-position-x: -100px;
+      background-position-y: -100px;
+      background-size: 1400px
     }
 
     h1 {
@@ -59,19 +66,7 @@
       font-size: 20px;
     }
 
-    .monsters {
-      background-color: #2E3234;
-    }
-
-    .monsters img {
-      vertical-align: middle;
-    }
-
-    .text-red {
-      color: #C9232C;
-    }
-
-    a {
+    .error a {
       display: inline-block;
       font-size: 16px;
       text-decoration: none;
@@ -83,12 +78,31 @@
       cursor: pointer;
     }
 
+    .text-red {
+      color: #C9232C;
+    }
+
+    .monsters {
+      text-align: center;
+    }
+
+    .monsters a {
+      display: inline-block;
+      font-size: 16px;
+      text-decoration: none;
+      padding: 12px 18px;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
   </style>
 </head>
 
 <body>
   <div class="content">
-    <img class="site-logo" src="logo.svg" />
+    <img class="site-logo" src="img/logo.svg" />
     <div class="cover">
       <div class="page">
         <div class="error">
@@ -97,11 +111,15 @@
           </h2>
           <h1>Bug's Dynasty took the full control...</h1>
           <p>This page has been eaten by the family.... We can't seem to find the page you're looking for.</p>
-          <a href="https://">Go back home</a>
+          <a href="/">Go back home</a>
         </div>
       </div>
-      <div class="page monsters">
-        <img width="80%" src="monsters.svg" />
+      <div class="page">
+        <div class="monsters">
+          <img width="500px" src="img/monsters.svg" />
+          <br/>
+          <a href="#">... or scroll to discover the dynasty</a>
+        </div>
       </div>
     </div>
   </div>
