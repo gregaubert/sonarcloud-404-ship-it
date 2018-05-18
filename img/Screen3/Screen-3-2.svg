@@ -1,48 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1999 9686 1920 1200">
-  <defs>
-    <style>
-      .cls-1 {
-        clip-path: url(#clip-Screen-3_2);
-      }
-
-      .cls-2 {
-        fill: #2e3234;
-      }
-    </style>
-    <clipPath id="clip-Screen-3_2">
-      <rect x="-1999" y="9686" width="1920" height="1200"/>
-    </clipPath>
-  </defs>
-  <g id="Screen-3_2" data-name="Screen-3–2" class="cls-1">
-    <g id="Groupe_333" data-name="Groupe 333" transform="translate(-7121 -1655)">
-      <rect id="Rectangle_238" data-name="Rectangle 238" class="cls-2" width="1972" height="420" transform="translate(5094 11941)"/>
-      <rect id="Rectangle_239" data-name="Rectangle 239" width="1972" height="363" transform="translate(5094 12310)"/>
-      <rect id="Rectangle_240" data-name="Rectangle 240" width="626" height="83" rx="41.5" transform="translate(4961 12231)"/>
-      <rect id="Rectangle_241" data-name="Rectangle 241" width="273" height="83" rx="41.5" transform="translate(4961 12148)"/>
-      <rect id="Rectangle_242" data-name="Rectangle 242" width="182.4" height="55.117" rx="27.558" transform="translate(6854.189 12175.883)"/>
-      <rect id="Rectangle_243" data-name="Rectangle 243" width="273" height="83" rx="41.5" transform="translate(4966 12065)"/>
-      <rect id="Rectangle_244" data-name="Rectangle 244" width="182.4" height="55.117" rx="27.558" transform="translate(6850.849 12120.767)"/>
-      <rect id="Rectangle_245" data-name="Rectangle 245" class="cls-2" width="273" height="83" rx="41.5" transform="translate(5152 12148)"/>
-      <rect id="Rectangle_246" data-name="Rectangle 246" class="cls-2" width="182.4" height="55.117" rx="27.558" transform="translate(6726.576 12175.883)"/>
-      <rect id="Rectangle_247" data-name="Rectangle 247" width="626" height="84" rx="42" transform="translate(5777 12231)"/>
-      <rect id="Rectangle_248" data-name="Rectangle 248" width="626" height="83" rx="41.5" transform="translate(6577 12231)"/>
-      <rect id="Rectangle_249" data-name="Rectangle 249" class="cls-2" width="626" height="83" rx="41.5" transform="translate(5345 12310)"/>
-      <rect id="Rectangle_250" data-name="Rectangle 250" class="cls-2" width="626" height="83" rx="41.5" transform="translate(6189 12310)"/>
-      <rect id="Rectangle_251" data-name="Rectangle 251" class="cls-2" width="269" height="36" rx="18" transform="translate(5735 12421)"/>
-      <rect id="Rectangle_252" data-name="Rectangle 252" class="cls-2" width="246" height="33" rx="16.5" transform="translate(5294 12257)"/>
-      <rect id="Rectangle_253" data-name="Rectangle 253" class="cls-2" width="188" height="33" rx="16.5" transform="translate(6033 12257)"/>
-      <rect id="Rectangle_254" data-name="Rectangle 254" class="cls-2" width="188" height="33" rx="16.5" transform="translate(6840 12257)"/>
-      <rect id="Rectangle_255" data-name="Rectangle 255" class="cls-2" width="35" height="33" rx="16.5" transform="translate(5974 12256)"/>
-      <rect id="Rectangle_256" data-name="Rectangle 256" class="cls-2" width="27.733" height="26.148" rx="13.074" transform="translate(6264 12423)"/>
-      <rect id="Rectangle_257" data-name="Rectangle 257" class="cls-2" width="46.75" height="26.148" rx="13.074" transform="translate(6302.826 12423)"/>
-      <rect id="Rectangle_258" data-name="Rectangle 258" class="cls-2" width="35" height="33" rx="16.5" transform="translate(6607 12256)"/>
-      <rect id="Rectangle_259" data-name="Rectangle 259" class="cls-2" width="162" height="22" rx="11" transform="translate(5132 12352)"/>
-      <rect id="Rectangle_260" data-name="Rectangle 260" class="cls-2" width="112" height="16" rx="8" transform="translate(5395 12423)"/>
-      <rect id="Rectangle_261" data-name="Rectangle 261" class="cls-2" width="112" height="16" rx="8" transform="translate(5698 12473)"/>
-      <rect id="Rectangle_262" data-name="Rectangle 262" class="cls-2" width="182" height="16" rx="8" transform="translate(5274 12459)"/>
-      <rect id="Rectangle_263" data-name="Rectangle 263" class="cls-2" width="182" height="16" rx="8" transform="translate(6616 12481)"/>
-      <rect id="Rectangle_264" data-name="Rectangle 264" class="cls-2" width="194" height="16" rx="8" transform="translate(6688 12423)"/>
-      <rect id="Rectangle_265" data-name="Rectangle 265" class="cls-2" width="24" height="16" rx="8" transform="translate(6893 12423)"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1200" style="enable-background:new 0 0 1920 1200;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#2E3234;}
+	.st1{clip-path:url(#SVGID_2_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1920" height="1200"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st0" d="M1024,816c-491.6,0-893.4-95.6-920.5-216H-28v420h1972V602.2C1912.6,721.6,1512.7,816,1024,816z"/>
+	<rect id="Rectangle_239" x="-28" y="969" class="st1" width="1972" height="363"/>
+	<path id="Rectangle_240" class="st1" d="M-119.5,890h543c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-543
+		c-22.9,0-41.5-18.6-41.5-41.5l0,0C-161,908.6-142.4,890-119.5,890z"/>
+	<path id="Rectangle_241" class="st1" d="M-119.5,807h190c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-190
+		c-22.9,0-41.5-18.6-41.5-41.5l0,0C-161,825.6-142.4,807-119.5,807z"/>
+	<path id="Rectangle_242" class="st1" d="M1759.7,834.9H1887c15.2,0,27.6,12.3,27.6,27.6v0c0,15.2-12.3,27.6-27.6,27.6h-127.3
+		c-15.2,0-27.6-12.3-27.6-27.6v0C1732.2,847.2,1744.5,834.9,1759.7,834.9z"/>
+	<path id="Rectangle_243" class="st1" d="M-114.5,724h190c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-190
+		c-22.9,0-41.5-18.6-41.5-41.5l0,0C-156,742.6-137.4,724-114.5,724z"/>
+	<path id="Rectangle_244" class="st1" d="M1756.4,779.8h127.3c15.2,0,27.6,12.3,27.6,27.6v0c0,15.2-12.3,27.6-27.6,27.6h-127.3
+		c-15.2,0-27.6-12.3-27.6-27.6v0C1728.8,792.1,1741.2,779.8,1756.4,779.8z"/>
+	<path id="Rectangle_245" class="st0" d="M71.5,807h190c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-190
+		C48.6,890,30,871.4,30,848.5l0,0C30,825.6,48.6,807,71.5,807z"/>
+	<path id="Rectangle_246" class="st0" d="M1632.1,834.9h127.3c15.2,0,27.6,12.3,27.6,27.6v0c0,15.2-12.3,27.6-27.6,27.6h-127.3
+		c-15.2,0-27.6-12.3-27.6-27.6v0C1604.6,847.2,1616.9,834.9,1632.1,834.9z"/>
+	<path id="Rectangle_247" class="st1" d="M697,890h542c23.2,0,42,18.8,42,42l0,0c0,23.2-18.8,42-42,42H697c-23.2,0-42-18.8-42-42
+		l0,0C655,908.8,673.8,890,697,890z"/>
+	<path id="Rectangle_248" class="st1" d="M1496.5,890h543c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-543
+		c-22.9,0-41.5-18.6-41.5-41.5l0,0C1455,908.6,1473.6,890,1496.5,890z"/>
+	<path id="Rectangle_249" class="st0" d="M264.5,969h543c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-543
+		c-22.9,0-41.5-18.6-41.5-41.5l0,0C223,987.6,241.6,969,264.5,969z"/>
+	<path id="Rectangle_250" class="st0" d="M1108.5,969h543c22.9,0,41.5,18.6,41.5,41.5l0,0c0,22.9-18.6,41.5-41.5,41.5h-543
+		c-22.9,0-41.5-18.6-41.5-41.5l0,0C1067,987.6,1085.6,969,1108.5,969z"/>
+	<path id="Rectangle_251" class="st0" d="M631,1080h233c9.9,0,18,8.1,18,18l0,0c0,9.9-8.1,18-18,18H631c-9.9,0-18-8.1-18-18l0,0
+		C613,1088.1,621.1,1080,631,1080z"/>
+	<path id="Rectangle_252" class="st0" d="M188.5,916h213c9.1,0,16.5,7.4,16.5,16.5l0,0c0,9.1-7.4,16.5-16.5,16.5h-213
+		c-9.1,0-16.5-7.4-16.5-16.5l0,0C172,923.4,179.4,916,188.5,916z"/>
+	<path id="Rectangle_253" class="st0" d="M927.5,916h155c9.1,0,16.5,7.4,16.5,16.5l0,0c0,9.1-7.4,16.5-16.5,16.5h-155
+		c-9.1,0-16.5-7.4-16.5-16.5l0,0C911,923.4,918.4,916,927.5,916z"/>
+	<path id="Rectangle_254" class="st0" d="M1734.5,916h155c9.1,0,16.5,7.4,16.5,16.5l0,0c0,9.1-7.4,16.5-16.5,16.5h-155
+		c-9.1,0-16.5-7.4-16.5-16.5l0,0C1718,923.4,1725.4,916,1734.5,916z"/>
+	<path id="Rectangle_255" class="st0" d="M868.5,915h2c9.1,0,16.5,7.4,16.5,16.5l0,0c0,9.1-7.4,16.5-16.5,16.5h-2
+		c-9.1,0-16.5-7.4-16.5-16.5l0,0C852,922.4,859.4,915,868.5,915z"/>
+	<path id="Rectangle_256" class="st0" d="M1155.1,1082h1.6c7.2,0,13.1,5.9,13.1,13.1l0,0c0,7.2-5.9,13.1-13.1,13.1h-1.6
+		c-7.2,0-13.1-5.9-13.1-13.1l0,0C1142,1087.9,1147.9,1082,1155.1,1082z"/>
+	<path id="Rectangle_257" class="st0" d="M1193.9,1082h20.6c7.2,0,13.1,5.9,13.1,13.1l0,0c0,7.2-5.9,13.1-13.1,13.1h-20.6
+		c-7.2,0-13.1-5.9-13.1-13.1l0,0C1180.8,1087.9,1186.7,1082,1193.9,1082z"/>
+	<path id="Rectangle_258" class="st0" d="M1501.5,915h2c9.1,0,16.5,7.4,16.5,16.5l0,0c0,9.1-7.4,16.5-16.5,16.5h-2
+		c-9.1,0-16.5-7.4-16.5-16.5l0,0C1485,922.4,1492.4,915,1501.5,915z"/>
+	<path id="Rectangle_259" class="st0" d="M21,1011h140c6.1,0,11,4.9,11,11l0,0c0,6.1-4.9,11-11,11H21c-6.1,0-11-4.9-11-11l0,0
+		C10,1015.9,14.9,1011,21,1011z"/>
+	<path id="Rectangle_260" class="st0" d="M281,1082h96c4.4,0,8,3.6,8,8l0,0c0,4.4-3.6,8-8,8h-96c-4.4,0-8-3.6-8-8l0,0
+		C273,1085.6,276.6,1082,281,1082z"/>
+	<path id="Rectangle_261" class="st0" d="M584,1132h96c4.4,0,8,3.6,8,8l0,0c0,4.4-3.6,8-8,8h-96c-4.4,0-8-3.6-8-8l0,0
+		C576,1135.6,579.6,1132,584,1132z"/>
+	<path id="Rectangle_262" class="st0" d="M160,1118h166c4.4,0,8,3.6,8,8l0,0c0,4.4-3.6,8-8,8H160c-4.4,0-8-3.6-8-8l0,0
+		C152,1121.6,155.6,1118,160,1118z"/>
+	<path id="Rectangle_263" class="st0" d="M1502,1140h166c4.4,0,8,3.6,8,8l0,0c0,4.4-3.6,8-8,8h-166c-4.4,0-8-3.6-8-8l0,0
+		C1494,1143.6,1497.6,1140,1502,1140z"/>
+	<path id="Rectangle_264" class="st0" d="M1574,1082h178c4.4,0,8,3.6,8,8l0,0c0,4.4-3.6,8-8,8h-178c-4.4,0-8-3.6-8-8l0,0
+		C1566,1085.6,1569.6,1082,1574,1082z"/>
+	<path id="Rectangle_265" class="st0" d="M1779,1082h8c4.4,0,8,3.6,8,8l0,0c0,4.4-3.6,8-8,8h-8c-4.4,0-8-3.6-8-8l0,0
+		C1771,1085.6,1774.6,1082,1779,1082z"/>
+</g>
 </svg>
