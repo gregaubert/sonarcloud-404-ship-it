@@ -53,7 +53,7 @@
       background-color: #2E3234;
       background-image: url('img/round.svg');
       background-repeat: no-repeat;
-      background-size: 1200px;
+      background-size: 1000px;
     }
 
     .page {
@@ -82,18 +82,6 @@
       font-size: 20px;
     }
 
-    .error a {
-      display: inline-block;
-      font-size: 16px;
-      text-decoration: none;
-      padding: 12px 18px;
-      color: white;
-      background-color: #C9232C;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
     .text-red {
       color: #C9232C;
     }
@@ -108,21 +96,36 @@
       display: inline-block;
       width: 600px;
     }
-
-    .monsters a {
+    
+    .monsters span {
       display: inline-block;
       font-size: 20px;
       text-decoration: none;
-      padding: 12px 18px;
       color: white;
       border: none;
       border-radius: 4px;
-      cursor: pointer;
     }
 
+    .home-button {
+      display: inline-block;
+      font-size: 16px;
+      text-decoration: none;
+      padding: 12px 18px;
+      color: white;
+      background-color: #C9232C;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+    }
+    
+    .home-button:hover, .home-button:focus {
+      background-color: #b21b22;
+    }
+    
     .story-line {
       display: none;
-      position: relative;
+      position: absolute;
       height: 100%;
       padding: 40px, 40px;
     }
@@ -177,7 +180,7 @@
     .story-content {
       position: absolute;
       color: white;
-      top: 20px;
+      top: 70px;
       left: 140px;
       width: 300px;
       display: none;
@@ -200,14 +203,16 @@
     
     .final-content {
       width: 100%;
-      text-align: center;
-      padding-top: 200px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
     
     .final-text {
-      padding-left: 380px;
-      width:780px;
       color: white;
+      width:780px;
       font-size: 40px;
       font-weight: 900;
     }
@@ -226,6 +231,10 @@
       position: absolute;
       height: 120%;
       width:  100%;
+    }
+    
+    .layer.small {
+      height: 100%;
     }
 
     .layer img.animated {
@@ -286,7 +295,7 @@
               </h2>
               <h1>We can't seem to find the page you're looking for...</h1>
               <p>Looks like it was eaten by the Dynasty</p>
-              <a href="https://www.sonarsource.com">Go back home</a>
+              <a class="home-button" href="/">Go back home</a>
             </div>
           </div>
           <div class="column">
@@ -295,8 +304,8 @@
             <br/><br/>
             <h1>...bug's Dynasty took the full control!</h1>
             <br/><br/>
-            <a href="#">Scroll to discover the dynasty</a>
-            <br/>
+            <span>Scroll to discover the dynasty</span>
+            <br/><br/>
             <img width="25px" src="img/arrow-down.svg" class="blink" />
             </div>
           </div>
@@ -363,9 +372,10 @@
       </div>
     </div>
     <div class="page">
-      <div class="layer layer1">
+      <div class="layer small layer1">
         <div class="final-content">
           <p class="final-text">So in the end, compared to all those bugs, a 404 is not such a big deal, is it?</p>
+          <a class="home-button" href="/">Go back home</a>
         </div>
       </div>
     </div>
