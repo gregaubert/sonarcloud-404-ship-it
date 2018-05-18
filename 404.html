@@ -51,6 +51,12 @@
 
     .page {
       display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:1920px;
+      height:1200px;
+      overflow: hidden;
     }
     
     .column {
@@ -177,12 +183,44 @@
       margin: 15px 0;
     }
     
-    .page.active, 
+    .page-current-to-next,
+    .page-next-to-current,
+    .page-current-to-prev,
+    .page-prev-to-current,
+    .page.active,
     .story-content.active,
     .story-line.active {
       display: block;
     }
+    
+    .layer {
+        position: absolute;
+        height: 1920px;
+        width:  1200px;
+    }
+    
+     .layer img {
+        height: 100%;
+        width:  100%;
+    }
 
+    .page-current-to-next .layer1 { animation: move-current-to-next 900ms   0ms both ease-out; }
+    .page-current-to-next .layer2 { animation: move-current-to-next 700ms   0ms both ease-out; }
+    .page-current-to-next .layer3 { animation: move-current-to-next 500ms   0ms both ease-out; }
+    .page-current-to-next .layer4 { animation: move-current-to-next 300ms   0ms both ease-out; }
+    .page-next-to-current .layer1 { animation: move-next-to-current 900ms   0ms both ease-out; }
+    .page-next-to-current .layer2 { animation: move-next-to-current 700ms 200ms both ease-out; }
+    .page-next-to-current .layer3 { animation: move-next-to-current 500ms 400ms both ease-out; }
+    .page-next-to-current .layer4 { animation: move-next-to-current 300ms 600ms both ease-out; }
+    .page-current-to-prev .layer1 { animation: move-current-to-prev 900ms   0ms both ease-out; }
+    .page-current-to-prev .layer2 { animation: move-current-to-prev 700ms   0ms both ease-out; }
+    .page-current-to-prev .layer3 { animation: move-current-to-prev 500ms   0ms both ease-out; }
+    .page-current-to-prev .layer4 { animation: move-current-to-prev 300ms   0ms both ease-out; }
+    .page-prev-to-current .layer1 { animation: move-prev-to-current 900ms   0ms both ease-out; }
+    .page-prev-to-current .layer2 { animation: move-prev-to-current 700ms 200ms both ease-out; }
+    .page-prev-to-current .layer3 { animation: move-prev-to-current 500ms 400ms both ease-out; }
+    .page-prev-to-current .layer4 { animation: move-prev-to-current 300ms 600ms both ease-out; }
+    
     .blink {
       animation: blink normal 2s infinite ease-in-out;
     }
@@ -199,6 +237,10 @@
         }
     }
 
+    @keyframes move-current-to-next { from {top:   0px;} to {top:  1200px;} }
+    @keyframes move-next-to-current { from {top:  1200px;} to {top:   0px;} }
+    @keyframes move-current-to-prev { from {top:   0px;} to {top: -1200px;} }
+    @keyframes move-prev-to-current { from {top: -1200px;} to {top:   0px;} }
   </style>
 </head>
 
@@ -282,8 +324,43 @@
     </div>
     
     <div class="page">
-      
-    </div>  
+      <div class="layer layer1">
+        <img src="img/Screen1/Screen-1-2.svg">
+      </div>
+      <div class="layer layer2">
+        <img src="img/Screen1/Screen-1-3.svg">
+      </div>
+    </div>
+    
+    <div class="page">
+      <div class="layer layer1">
+        <img src="img/Screen2/Screen-2-2.svg">
+      </div>
+      <div class="layer layer2">
+        <img src="img/Screen2/Screen-2-3.svg">
+      </div>
+      <div class="layer layer3">
+        <img src="img/Screen2/Screen-2-4.svg">
+      </div>
+      <div class="layer layer4">
+        <img src="img/Screen2/Screen-2-5.svg">
+      </div>
+    </div>
+    
+    <div class="page">
+      <div class="layer layer1">
+        <img src="img/Screen2/Screen-2-2.svg">
+      </div>
+      <div class="layer layer2">
+        <img src="img/Screen2/Screen-2-3.svg">
+      </div>
+      <div class="layer layer3">
+        <img src="img/Screen2/Screen-2-4.svg">
+      </div>
+      <div class="layer layer4">
+        <img src="img/Screen2/Screen-2-5.svg">
+      </div>
+    </div>
   </div>
   
   <script>
@@ -299,19 +376,10 @@
 
       function changePage(newPage) {
         if (newPage !== currentPage) {
-          console.log(storyLineItem);
           if (newPage > 0) {
             storyLineItem.classList.add('active');
           } else {
             storyLineItem.classList.remove('active');
-          }
-          
-          if (pageItems[currentPage]) {
-            pageItems[currentPage].classList.remove('active');
-          }
-          
-          if (pageItems[newPage]) {
-            pageItems[newPage].classList.add('active');
           }
           
           if (navItems[currentPage - 1]) {
@@ -334,12 +402,39 @@
       function nextPage() {
         if (currentPage < 6) {
           changePage(currentPage + 1);
+          nextAnim();
         }
       }
 
       function previousPage() {
         if (currentPage > 0) {
           changePage(currentPage - 1);
+          previousAnim();
+        }
+      }
+      
+      function nextAnim() {
+        console.log('anime')
+        for (let i = 0; i < pageItems.length ; i++) {
+          if (i === currentPage - 1) {
+            pageItems[i].className = "page page-current-to-prev";
+          } else if (i === currentPage) {
+            pageItems[i].className = "page page-next-to-current";
+          } else {
+            pageItems[i].className = "page";
+          }
+        }
+      }
+
+      function previousAnim() {
+        for (let i = 0; i < pageItems.length ; i++) {
+          if (i === currentPage) {
+            pageItems[i].className = "page page-prev-to-current";
+          } else if (i === currentPage + 1) {
+            pageItems[i].className = "page page-current-to-next";
+          } else {
+            pageItems[i].className = "page";
+          }
         }
       }
 
@@ -361,6 +456,17 @@
             previousPage();
           }
         });
+        
+        document.onkeydown = function (event) {
+          switch (event.key) {
+            case "ArrowUp":
+              previousPage();
+              break;
+            case "ArrowDown":
+              nextPage();
+              break;
+          }
+        };
       }  
     })();
   </script>
