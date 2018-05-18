@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4291 6722 1920 1606">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4305 6722 1920 1200">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_2-3);
+        clip-path: url(#clip-Screen-2-3);
       }
 
       .cls-2, .cls-6 {
@@ -74,12 +74,12 @@
         fill: #43b6b8;
       }
     </style>
-    <clipPath id="clip-Screen_2-3">
-      <rect x="-4291" y="6722" width="1920" height="1606"/>
+    <clipPath id="clip-Screen-2-3">
+      <rect x="-4305" y="6722" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_2-3" data-name="Screen 2-3" class="cls-1">
-    <g id="Groupe_292" data-name="Groupe 292" transform="translate(-4290 5186)">
+  <g id="Screen-2-3" class="cls-1">
+    <g id="Groupe_292" data-name="Groupe 292" transform="translate(-4304 5186)">
       <g id="Groupe_250" data-name="Groupe 250" transform="translate(1393.422 1690.557)">
         <g id="Groupe_224" data-name="Groupe 224" transform="translate(0 0)">
           <path id="Tracé_959" data-name="Tracé 959" class="cls-2" d="M226.68,144.084C239.026,77.29,198.16,13.83,135.564,2.348,72.967-9.258,12.346,35.56,0,102.23Z" transform="translate(0 0.166)"/>

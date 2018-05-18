@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6339 6722 1920 1606">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6353 6722 1920 1200">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_2-2);
+        clip-path: url(#clip-Screen-2-2);
       }
 
       .cls-2 {
@@ -111,12 +111,12 @@
       <stop offset="0.719" stop-color="#c9c9c9"/>
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
-    <clipPath id="clip-Screen_2-2">
-      <rect x="-6339" y="6722" width="1920" height="1606"/>
+    <clipPath id="clip-Screen-2-2">
+      <rect x="-6353" y="6722" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_2-2" data-name="Screen 2-2" class="cls-1">
-    <g id="Groupe_293" data-name="Groupe 293" transform="translate(-6277.076 5096.87)">
+  <g id="Screen-2-2" class="cls-1">
+    <g id="Groupe_293" data-name="Groupe 293" transform="translate(-6291.076 5096.87)">
       <rect id="Rectangle_30" data-name="Rectangle 30" class="cls-2" width="69.549" height="251.826" transform="matrix(0.966, -0.259, 0.259, 0.966, 1023.992, 2397.904)"/>
       <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-3" width="44.549" height="251.826" transform="matrix(0.966, -0.259, 0.259, 0.966, 1041.344, 2410.986)"/>
       <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-4" width="10.549" height="251.826" transform="matrix(0.966, -0.259, 0.259, 0.966, 1061.765, 2417.586)"/>
