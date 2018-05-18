@@ -1,48 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4091 12765 1920 1200">
-  <defs>
-    <style>
-      .cls-1 {
-        clip-path: url(#clip-Screen-4_2);
-      }
-
-      .cls-2 {
-        fill: #231f20;
-        opacity: 0.16;
-      }
-
-      .cls-3 {
-        fill: #fff;
-      }
-
-      .cls-4 {
-        fill: #61c2ca;
-      }
-
-      .cls-5 {
-        fill: #212120;
-        opacity: 0.52;
-      }
-    </style>
-    <clipPath id="clip-Screen-4_2">
-      <rect x="-4091" y="12765" width="1920" height="1200"/>
-    </clipPath>
-  </defs>
-  <g id="Screen-4_2" data-name="Screen-4–2" class="cls-1">
-    <g id="Groupe_298" data-name="Groupe 298" transform="translate(-3375.811 12834.881)">
-      <g id="Groupe_49" data-name="Groupe 49" transform="translate(31.032 6.285) rotate(14)">
-        <path id="Tracé_194" data-name="Tracé 194" class="cls-2" d="M2.268,0A99.631,99.631,0,0,0,0,21.421a106.6,106.6,0,1,0,213.2,0A99.63,99.63,0,0,0,210.931,0Z" transform="translate(0 0.252)"/>
-        <path id="Tracé_195" data-name="Tracé 195" class="cls-3" d="M.5.252C.252,3.528,0,6.8,0,10.332a96.771,96.771,0,1,0,193.542-.252c0-3.276-.252-6.8-.5-10.08H.5Z" transform="translate(9.828 0)"/>
-        <path id="Tracé_196" data-name="Tracé 196" class="cls-4" d="M1.512,0A59.264,59.264,0,0,0,0,13.608a62.75,62.75,0,1,0,125.5,0A59.265,59.265,0,0,0,123.988,0H1.512Z" transform="translate(44.353 0.252)"/>
-        <path id="Tracé_197" data-name="Tracé 197" class="cls-5" d="M3.024,0A30.775,30.775,0,0,0,0,13.608a32.257,32.257,0,1,0,64.514,0A30.775,30.775,0,0,0,61.49,0H3.024Z" transform="translate(74.846 0.252)"/>
-        <path id="Tracé_198" data-name="Tracé 198" class="cls-3" d="M38.341,5.316c2.268,5.8-4.032,13.86-14.616,18.145C13.392,27.745,3.059,26.485.539,20.689S4.571,6.828,15.156,2.544,36.073-.48,38.341,5.316Z" transform="translate(106.06 35.509)"/>
-      </g>
-      <g id="Groupe_50" data-name="Groupe 50" transform="matrix(0.966, -0.259, 0.259, 0.966, 258.213, 60.594)">
-        <path id="Tracé_199" data-name="Tracé 199" class="cls-2" d="M2.268,0A119.234,119.234,0,0,0,0,23.437a117.058,117.058,0,1,0,234.115,0A119.24,119.24,0,0,0,231.847,0Z" transform="translate(0 0)"/>
-        <path id="Tracé_200" data-name="Tracé 200" class="cls-3" d="M.5,0C.252,3.528,0,7.308,0,11.088a106.347,106.347,0,1,0,212.695,0c0-3.78-.252-7.308-.5-11.088H.5Z" transform="translate(10.584 0)"/>
-        <path id="Tracé_201" data-name="Tracé 201" class="cls-4" d="M1.764,0A72.691,72.691,0,0,0,0,14.868a68.8,68.8,0,1,0,137.6,0A58.576,58.576,0,0,0,135.832,0H1.764Z" transform="translate(48.386 0)"/>
-        <path id="Tracé_202" data-name="Tracé 202" class="cls-5" d="M3.276,0A36.642,36.642,0,0,0,0,14.868a35.533,35.533,0,1,0,71.066,0A36.642,36.642,0,0,0,67.79,0H3.276Z" transform="translate(81.903 0)"/>
-        <path id="Tracé_203" data-name="Tracé 203" class="cls-3" d="M41.84,5.916c2.52,6.3-4.536,15.373-15.877,19.909C14.623,30.613,3.282,29.1.51,22.8-2.01,16.5,5.046,7.428,16.387,2.892,27.979-1.9,39.319-.636,41.84,5.916Z" transform="translate(116.674 38.942)"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1200" style="enable-background:new 0 0 1920 1200;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{opacity:0.16;fill:#231F20;enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#61C2CA;}
+	.st4{opacity:0.52;fill:#212120;enable-background:new    ;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1920" height="1200"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Screen-4_2" class="st0">
+		<g id="Groupe_298" transform="translate(-3375.811 12834.881)">
+			<g id="Groupe_49" transform="translate(31.032 6.285) rotate(14)">
+				<path id="Tracé_194" class="st1" d="M932-13181.2c-1.5,7-2.3,14.2-2.3,21.4c0,58.9,47.7,106.6,106.6,106.6
+					s106.6-47.7,106.6-106.6c0-7.2-0.7-14.4-2.3-21.4H932z"/>
+				<path id="Tracé_195" class="st2" d="M940.1-13181.2c-0.2,3.3-0.5,6.5-0.5,10.1c0.1,53.4,43.5,96.7,96.9,96.6
+					c53.4-0.1,96.7-43.5,96.6-96.9c0-3.3-0.3-6.8-0.5-10.1H940.1V-13181.2z"/>
+				<path id="Tracé_196" class="st3" d="M975.6-13181.2c-1,4.5-1.5,9-1.5,13.6c0,34.7,28.1,62.8,62.8,62.8
+					c34.7,0,62.7-28.1,62.7-62.8l0,0c0-4.6-0.5-9.1-1.5-13.6H975.6z"/>
+				<path id="Tracé_197" class="st4" d="M1007.6-13181.2c-2,4.2-3.1,8.9-3,13.6c0,17.8,14.4,32.3,32.3,32.3
+					c17.8,0,32.3-14.4,32.3-32.3c0-4.7-1-9.4-3-13.6H1007.6z"/>
+				<path id="Tracé_198" class="st2" d="M1074.1-13140.6c2.3,5.8-4,13.9-14.6,18.1c-10.3,4.3-20.7,3-23.2-2.8s4-13.9,14.6-18.1
+					C1061.5-13147.7,1071.9-13146.4,1074.1-13140.6z"/>
+			</g>
+			<g id="Groupe_50" transform="matrix(0.966, -0.259, 0.259, 0.966, 258.213, 60.594)">
+				<path id="Tracé_199" class="st1" d="M7206.8-11075.6c-1.5,7.7-2.3,15.6-2.3,23.4c-0.2,64.6,52.1,117.2,116.7,117.4
+					s117.2-52.1,117.4-116.7c0-0.2,0-0.5,0-0.7c0-7.9-0.7-15.7-2.3-23.4H7206.8z"/>
+				<path id="Tracé_200" class="st2" d="M7215.6-11075.6c-0.2,3.5-0.5,7.3-0.5,11.1c0,58.7,47.6,106.3,106.3,106.3
+					c58.7,0,106.3-47.6,106.3-106.3c0-3.8-0.3-7.3-0.5-11.1H7215.6z"/>
+				<path id="Tracé_201" class="st3" d="M7254.7-11075.6c-1.1,4.9-1.7,9.9-1.8,14.9c0,38,30.8,68.8,68.8,68.8s68.8-30.8,68.8-68.8
+					c0,0,0,0,0,0c0-5-0.5-10-1.8-14.9H7254.7z"/>
+				<path id="Tracé_202" class="st4" d="M7289.7-11075.6c-2.1,4.7-3.2,9.7-3.3,14.9c0,19.6,15.9,35.5,35.5,35.5
+					c19.6,0,35.5-15.9,35.5-35.5c0-5.1-1.2-10.2-3.3-14.9H7289.7z"/>
+				<path id="Tracé_203" class="st2" d="M7363-11030.7c2.5,6.3-4.5,15.4-15.9,19.9c-11.3,4.8-22.7,3.3-25.5-3
+					c-2.5-6.3,4.5-15.4,15.9-19.9C7349.2-11038.6,7360.5-11037.3,7363-11030.7z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
