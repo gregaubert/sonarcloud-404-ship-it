@@ -14,11 +14,12 @@
       font-weight: 500;
     }
 
-    html,body {
+    html,
+    body {
       margin: 0;
       overflow: hidden;
       width: 1440px;
-      height:  900px;
+      height: 900px;
       background-color: #2E3234;
     }
 
@@ -61,8 +62,8 @@
       position: absolute;
       top: 0;
       left: 0;
-      width:100%;
-      height:100%;
+      width: 100%;
+      height: 100%;
     }
 
     .column {
@@ -96,7 +97,7 @@
       display: inline-block;
       width: 600px;
     }
-    
+
     .monsters span {
       display: inline-block;
       font-size: 20px;
@@ -118,11 +119,12 @@
       cursor: pointer;
       text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
     }
-    
-    .home-button:hover, .home-button:focus {
+
+    .home-button:hover,
+    .home-button:focus {
       background-color: #b21b22;
     }
-    
+
     .story-line {
       display: none;
       position: absolute;
@@ -199,8 +201,9 @@
     .story-content .cost {
       color: #FF4A4A;
       margin: 0;
+      padding: 10px 0;
     }
-    
+
     .final-content {
       width: 100%;
       height: 100%;
@@ -209,10 +212,10 @@
       align-items: center;
       flex-direction: column;
     }
-    
+
     .final-text {
       color: white;
-      width:780px;
+      width: 780px;
       font-size: 40px;
       font-weight: 900;
     }
@@ -230,55 +233,134 @@
     .layer {
       position: absolute;
       height: 120%;
-      width:  100%;
+      width: 100%;
     }
-    
+
     .layer.small {
       height: 100%;
     }
 
     .layer img.animated {
       height: 100%;
-      width:  100%;
+      width: 100%;
     }
 
-    .page-current-to-next .layer1 { animation: move-current-to-next 900ms   0ms both ease-out; }
-    .page-current-to-next .layer2 { animation: move-current-to-next 700ms   0ms both ease-out; }
-    .page-current-to-next .layer3 { animation: move-current-to-next 500ms   0ms both ease-out; }
-    .page-current-to-next .layer4 { animation: move-current-to-next 300ms   0ms both ease-out; }
-    .page-next-to-current .layer1 { animation: move-next-to-current 900ms   0ms both ease-out; }
-    .page-next-to-current .layer2 { animation: move-next-to-current 700ms 200ms both ease-out; }
-    .page-next-to-current .layer3 { animation: move-next-to-current 500ms 400ms both ease-out; }
-    .page-next-to-current .layer4 { animation: move-next-to-current 300ms 600ms both ease-out; }
-    .page-current-to-prev .layer1 { animation: move-current-to-prev 900ms   0ms both ease-out; }
-    .page-current-to-prev .layer2 { animation: move-current-to-prev 700ms   0ms both ease-out; }
-    .page-current-to-prev .layer3 { animation: move-current-to-prev 500ms   0ms both ease-out; }
-    .page-current-to-prev .layer4 { animation: move-current-to-prev 300ms   0ms both ease-out; }
-    .page-prev-to-current .layer1 { animation: move-prev-to-current 900ms   0ms both ease-out; }
-    .page-prev-to-current .layer2 { animation: move-prev-to-current 700ms 200ms both ease-out; }
-    .page-prev-to-current .layer3 { animation: move-prev-to-current 500ms 400ms both ease-out; }
-    .page-prev-to-current .layer4 { animation: move-prev-to-current 300ms 600ms both ease-out; }
+    .page-current-to-next .layer1 {
+      animation: move-current-to-next 900ms 0ms both ease-out;
+    }
+
+    .page-current-to-next .layer2 {
+      animation: move-current-to-next 700ms 0ms both ease-out;
+    }
+
+    .page-current-to-next .layer3 {
+      animation: move-current-to-next 500ms 0ms both ease-out;
+    }
+
+    .page-current-to-next .layer4 {
+      animation: move-current-to-next 300ms 0ms both ease-out;
+    }
+
+    .page-next-to-current .layer1 {
+      animation: move-next-to-current 900ms 0ms both ease-out;
+    }
+
+    .page-next-to-current .layer2 {
+      animation: move-next-to-current 700ms 200ms both ease-out;
+    }
+
+    .page-next-to-current .layer3 {
+      animation: move-next-to-current 500ms 400ms both ease-out;
+    }
+
+    .page-next-to-current .layer4 {
+      animation: move-next-to-current 300ms 600ms both ease-out;
+    }
+
+    .page-current-to-prev .layer1 {
+      animation: move-current-to-prev 900ms 0ms both ease-out;
+    }
+
+    .page-current-to-prev .layer2 {
+      animation: move-current-to-prev 700ms 0ms both ease-out;
+    }
+
+    .page-current-to-prev .layer3 {
+      animation: move-current-to-prev 500ms 0ms both ease-out;
+    }
+
+    .page-current-to-prev .layer4 {
+      animation: move-current-to-prev 300ms 0ms both ease-out;
+    }
+
+    .page-prev-to-current .layer1 {
+      animation: move-prev-to-current 900ms 0ms both ease-out;
+    }
+
+    .page-prev-to-current .layer2 {
+      animation: move-prev-to-current 700ms 200ms both ease-out;
+    }
+
+    .page-prev-to-current .layer3 {
+      animation: move-prev-to-current 500ms 400ms both ease-out;
+    }
+
+    .page-prev-to-current .layer4 {
+      animation: move-prev-to-current 300ms 600ms both ease-out;
+    }
 
     .blink {
       animation: blink normal 2s infinite ease-in-out;
     }
 
     @keyframes blink {
-        0% {
-            opacity:1;
-        }
-        50% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
 
-    @keyframes move-current-to-next { from {top:   0px;} to {top:  1200px;} }
-    @keyframes move-next-to-current { from {top:  1200px;} to {top:   0px;} }
-    @keyframes move-current-to-prev { from {top:   0px;} to {top: -1200px;} }
-    @keyframes move-prev-to-current { from {top: -1200px;} to {top:   0px;} }
+    @keyframes move-current-to-next {
+      from {
+        top: 0px;
+      }
+      to {
+        top: 1200px;
+      }
+    }
+
+    @keyframes move-next-to-current {
+      from {
+        top: 1200px;
+      }
+      to {
+        top: 0px;
+      }
+    }
+
+    @keyframes move-current-to-prev {
+      from {
+        top: 0px;
+      }
+      to {
+        top: -1200px;
+      }
+    }
+
+    @keyframes move-prev-to-current {
+      from {
+        top: -1200px;
+      }
+      to {
+        top: 0px;
+      }
+    }
+
   </style>
 </head>
 
@@ -301,12 +383,15 @@
           <div class="column">
             <div class="monsters">
               <img width="500px" src="img/monsters.svg" />
-            <br/><br/>
-            <h1>...bug's Dynasty took the full control!</h1>
-            <br/><br/>
-            <span>Scroll to discover the dynasty</span>
-            <br/><br/>
-            <img width="25px" src="img/arrow-down.svg" class="blink" />
+              <br/>
+              <br/>
+              <h1>...bug's Dynasty took the full control!</h1>
+              <br/>
+              <br/>
+              <span>Scroll to discover the dynasty</span>
+              <br/>
+              <br/>
+              <img width="25px" src="img/arrow-down.svg" class="blink" />
             </div>
           </div>
         </div>
@@ -379,7 +464,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="story-line">
       <ul class="side-nav">
         <li class="side-nav-item active">1947</li>
@@ -400,7 +485,8 @@
         <h1 class="title">Ariane 5 firework</h1>
         <p class="cost">Cost - $370 million</p>
         <p class="description">
-          A simple data conversion from 64-bit floating point value to 16-bit signed integer one led to the self-destruction of the rocket.
+          A simple data conversion from 64-bit floating point value to 16-bit signed integer one led to the self-destruction of the
+          rocket.
         </p>
       </div>
       <div class="story-content">
@@ -414,7 +500,8 @@
         <h1 class="title">Northeast Blackout</h1>
         <p class="cost">Cost - $6 billion</p>
         <p class="description">
-          A bug in an alarm system cascaded into collapse of the entire electric grid and deprived 55 million people of electricity during 2 days.
+          A bug in an alarm system cascaded into collapse of the entire electric grid and deprived 55 million people of electricity
+          during 2 days.
         </p>
       </div>
       <div class="story-content">
@@ -429,15 +516,14 @@
   </div>
 
   <script>
-    (function() {
+    (function () {
       const storyLineItem = document.getElementsByClassName('story-line')[0];
       const pageItems = document.getElementsByClassName('page');
       const navItems = document.getElementsByClassName('side-nav-item');
       const storyContentItems = document.getElementsByClassName('story-content');
       let currentPage = 0;
 
-      bindNavItems();
-      bindScroll();
+      bindEvents();
 
       function changePage(newPage) {
         if (newPage !== currentPage) {
@@ -479,7 +565,7 @@
       }
 
       function nextAnim() {
-        for (let i = 0; i < pageItems.length ; i++) {
+        for (let i = 0; i < pageItems.length; i++) {
           if (i === currentPage - 1) {
             pageItems[i].className = "page page-current-to-prev";
           } else if (i === currentPage) {
@@ -491,7 +577,7 @@
       }
 
       function previousAnim() {
-        for (let i = 0; i < pageItems.length ; i++) {
+        for (let i = 0; i < pageItems.length; i++) {
           if (i === currentPage) {
             pageItems[i].className = "page page-prev-to-current";
           } else if (i === currentPage + 1) {
@@ -502,18 +588,9 @@
         }
       }
 
-      function bindNavItems() {
-        for(let i = 0; i < navItems.length; i++) {
-          (function(idx) {
-            navItems[idx].addEventListener('click', function() {
-              changePage(idx + 1)
-            });
-          })(i);
-        }
-      }
+      function bindEvents() {
 
-      function bindScroll() {
-        window.addEventListener('mousewheel', function(event) {
+        document.addEventListener('mousewheel', function (event) {
           if (event.deltaY > 0) {
             nextPage();
           } else if (event.deltaY < 0) {
@@ -521,7 +598,7 @@
           }
         });
 
-        document.onkeydown = function (event) {
+        document.addEventListener('keydown', function (event) {
           switch (event.key) {
             case "ArrowUp":
               previousPage();
@@ -530,7 +607,36 @@
               nextPage();
               break;
           }
-        };
+        });
+
+        let xDown = null;
+        let yDown = null;
+        document.addEventListener('touchstart', function (evt) {
+          xDown = evt.touches[0].clientX;
+          yDown = evt.touches[0].clientY;
+        }, false);
+        document.addEventListener('touchmove', function (evt) {
+          if (!xDown || !yDown) {
+            return;
+          }
+
+          var xUp = evt.touches[0].clientX;
+          var yUp = evt.touches[0].clientY;
+
+          var xDiff = xDown - xUp;
+          var yDiff = yDown - yUp;
+
+          if (Math.abs(xDiff) < Math.abs(yDiff)) {
+            if (yDiff > 0) {
+              nextPage();
+            } else {
+              previousPage();
+            }
+          }
+
+          xDown = null;
+          yDown = null;
+        }, false);
       }
     })();
   </script>
