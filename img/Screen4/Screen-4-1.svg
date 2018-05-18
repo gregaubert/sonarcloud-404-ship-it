@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_1-1_2);
+        clip-path: url(#clip-Screen-4-1);
       }
 
       .cls-2 {
@@ -84,12 +84,12 @@
         font-weight: 500;
       }
     </style>
-    <clipPath id="clip-Screen_1-1_2">
+    <clipPath id="clip-Screen-4-1">
       <rect x="-6263" y="12765" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_1-1_2" data-name="Screen 1-1 – 2" class="cls-1">
-    <g id="Groupe_297" data-name="Groupe 297" transform="translate(-4812.231 13287.762)">
+  <g id="Screen-4-1" class="cls-1">
+    <g id="Groupe_297" data-name="Groupe 297" transform="translate(-4812.231 12955.762)">
       <g id="Groupe_69" data-name="Groupe 69">
         <g id="Groupe_56" data-name="Groupe 56">
           <g id="Groupe_54" data-name="Groupe 54">
@@ -143,7 +143,7 @@
       </g>
       <path id="Tracé_230" data-name="Tracé 230" class="cls-19" d="M114.356,70.8H65v2.387h45.026Z" transform="translate(-28.913 -31.493)"/>
     </g>
-    <text id="OFF" class="cls-20" transform="translate(-4771 13433)"><tspan x="0" y="0">OFF</tspan></text>
-    <text id="ON" class="cls-20" transform="translate(-4771 13319)"><tspan x="0" y="0">ON</tspan></text>
+    <text id="OFF" class="cls-20" transform="translate(-4771 13101)"><tspan x="0" y="0">OFF</tspan></text>
+    <text id="ON" class="cls-20" transform="translate(-4771 12987)"><tspan x="0" y="0">ON</tspan></text>
   </g>
 </svg>

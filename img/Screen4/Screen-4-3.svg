@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Screen_1-1_4);
+        clip-path: url(#clip-Screen-4-3);
       }
 
       .cls-2 {
@@ -48,12 +48,12 @@
     <clipPath id="clip-path">
       <path id="Tracé_382" data-name="Tracé 382" d="M560.43,183.908C544.366,44.146,365.82-5.883,280.678.543,195.536-5.883,16.991,44.146.926,183.908s181.758,88.355,212.281,77.11,67.471-11.245,67.471-11.245,36.948,0,67.471,11.245S576.495,323.669,560.43,183.908Z"/>
     </clipPath>
-    <clipPath id="clip-Screen_1-1_4">
+    <clipPath id="clip-Screen-4-3">
       <rect x="-1999" y="12765" width="1920" height="1200"/>
     </clipPath>
   </defs>
-  <g id="Screen_1-1_4" data-name="Screen 1-1 – 4" class="cls-1">
-    <g id="Groupe_299" data-name="Groupe 299" transform="translate(-749.759 13652.318) rotate(180)">
+  <g id="Screen-4-3" class="cls-1">
+    <g id="Groupe_299" data-name="Groupe 299" transform="translate(-749.759 13320.318) rotate(180)">
       <g id="Groupe_119" data-name="Groupe 119" transform="translate(8.578 17.817)">
         <path id="Tracé_377" data-name="Tracé 377" class="cls-2" d="M560.43,183.908C544.366,44.146,365.82-5.883,280.678.543,195.536-5.883,16.991,44.146.926,183.908s181.758,88.355,212.281,77.11,67.471-11.245,67.471-11.245,36.948,0,67.471,11.245S576.495,323.669,560.43,183.908Z" transform="translate(0 0)"/>
         <path id="Tracé_378" data-name="Tracé 378" class="cls-3" d="M451.257,139.513C438.405,33.258,294.513-4.379,226.124.44,157.506-4.608,13.843,33.258.762,139.513s146.187,67.012,170.972,58.521,54.39-8.491,54.39-8.491,29.834,0,54.39,8.491S464.338,245.539,451.257,139.513Z" transform="translate(54.554 33.838)"/>
