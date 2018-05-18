@@ -1,0 +1,202 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <style>
+        body,
+        h1,
+        h2,
+        p,
+        button,
+        a {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 66px;
+            font-weight: 900;
+            margin: 0;
+        }
+
+        .content {
+            position: relative;
+            min-width: 1000px;
+            width: 100%;
+        }
+
+        .cover {
+            height: 100%;
+            display: flex;
+        }
+
+        .page {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hidden-page {
+            display: none;
+        }
+
+        .layer {
+            position: absolute;
+            height: 1000px;
+            width:  1000px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .count {
+            font-size: 150px;
+        }
+
+        .page-current-to-next .layer1 { animation: move-current-to-next 900ms   0ms both ease-out; }
+        .page-current-to-next .layer2 { animation: move-current-to-next 700ms   0ms both ease-out; }
+        .page-current-to-next .layer3 { animation: move-current-to-next 500ms   0ms both ease-out; }
+        .page-current-to-next .layer4 { animation: move-current-to-next 300ms   0ms both ease-out; }
+        .page-next-to-current .layer1 { animation: move-next-to-current 900ms   0ms both ease-out; }
+        .page-next-to-current .layer2 { animation: move-next-to-current 700ms 200ms both ease-out; }
+        .page-next-to-current .layer3 { animation: move-next-to-current 500ms 400ms both ease-out; }
+        .page-next-to-current .layer4 { animation: move-next-to-current 300ms 600ms both ease-out; }
+        .page-current-to-prev .layer1 { animation: move-current-to-prev 900ms   0ms both ease-out; }
+        .page-current-to-prev .layer2 { animation: move-current-to-prev 700ms   0ms both ease-out; }
+        .page-current-to-prev .layer3 { animation: move-current-to-prev 500ms   0ms both ease-out; }
+        .page-current-to-prev .layer4 { animation: move-current-to-prev 300ms   0ms both ease-out; }
+        .page-prev-to-current .layer1 { animation: move-prev-to-current 900ms   0ms both ease-out; }
+        .page-prev-to-current .layer2 { animation: move-prev-to-current 700ms 200ms both ease-out; }
+        .page-prev-to-current .layer3 { animation: move-prev-to-current 500ms 400ms both ease-out; }
+        .page-prev-to-current .layer4 { animation: move-prev-to-current 300ms 600ms both ease-out; }
+
+        @keyframes move-current-to-next { from {top:   0px;} to {top:  100%;} }
+        @keyframes move-next-to-current { from {top:  100%;} to {top:   0px;} }
+        @keyframes move-current-to-prev { from {top:   0px;} to {top: -100%;} }
+        @keyframes move-prev-to-current { from {top: -100%;} to {top:   0px;} }
+    </style>
+    <script type="text/javascript">
+      (function () {
+        let firstPageIndex = 1,
+            currentPageIndex = 1,
+            lastPageIndex = 4;
+
+        document.onkeydown = function (event) {
+          switch (event.key) {
+            case "ArrowUp":
+              previousPage();
+              break;
+            case "ArrowDown":
+              nextPage();
+              break;
+          }
+        };
+
+        function nextPage() {
+          if (currentPageIndex === lastPageIndex) {
+            return;
+          }
+          currentPageIndex++;
+          for (let i = firstPageIndex; i <=lastPageIndex ; i++) {
+            let page = document.getElementById("page" + i);
+            if (i === currentPageIndex - 1) {
+              page.className = "page page-current-to-prev";
+            } else if (i === currentPageIndex) {
+              page.className = "page page-next-to-current";
+            } else {
+              page.className = "page hidden-page";
+            }
+          }
+        }
+
+        function previousPage() {
+          if (currentPageIndex === firstPageIndex) {
+            return;
+          }
+          currentPageIndex--;
+          for (let i = firstPageIndex; i <=lastPageIndex ; i++) {
+            let page = document.getElementById("page" + i);
+            if (i === currentPageIndex) {
+              page.className = "page page-prev-to-current";
+            } else if (i === currentPageIndex + 1) {
+              page.className = "page page-current-to-next";
+            } else {
+              page.className = "page hidden-page";
+            }
+          }
+        }
+
+      }());
+    </script>
+</head>
+<body>
+<div class="content">
+    <div id="page1" class="page">
+        <div class="layer layer1">
+            <img src="img1.1.svg">
+        </div>
+        <div class="layer layer2">
+            <img src="img1.2.svg">
+        </div>
+        <div class="layer layer3">
+            <img src="img1.3.svg">
+        </div>
+        <div class="layer layer4">
+            <span class="count">1</span>
+        </div>
+    </div>
+    <div id="page2" class="page hidden-page">
+        <div class="layer layer1">
+            <img src="img2.1.svg">
+        </div>
+        <div class="layer layer2">
+            <img src="img2.2.svg">
+        </div>
+        <div class="layer layer3">
+            <img src="img2.3.svg">
+        </div>
+        <div class="layer layer4">
+            <span class="count">2</span>
+        </div>
+    </div>
+    <div id="page3" class="page hidden-page">
+        <div class="layer layer1">
+            <img src="img3.1.svg">
+        </div>
+        <div class="layer layer2">
+            <img src="img3.2.svg">
+        </div>
+        <div class="layer layer3">
+            <img src="img3.3.svg">
+        </div>
+        <div class="layer layer4">
+            <span class="count">3</span>
+        </div>
+    </div>
+    <div id="page4" class="page hidden-page">
+        <div class="layer layer1">
+            <img src="img4.1.svg">
+        </div>
+        <div class="layer layer2">
+            <img src="img4.2.svg">
+        </div>
+        <div class="layer layer3">
+            <img src="img4.3.svg">
+        </div>
+        <div class="layer layer4">
+            <span class="count">4</span>
+        </div>
+    </div>
+    <div class="cover"></div>
+</div>
+</body>
+</html>
