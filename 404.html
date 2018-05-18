@@ -33,6 +33,10 @@
       font-size: 34px;
     }
 
+    span.hint-message::after {
+      content: "Press key down to discover the dynasty"
+    }
+
     .content {
       position: absolute;
       width: 100%;
@@ -54,7 +58,7 @@
       background-color: #2E3234;
       background-image: url('img/round.svg');
       background-repeat: no-repeat;
-      background-size: 1000px;
+      background-size: 70%;
     }
 
     .page {
@@ -151,7 +155,6 @@
       position: relative;
       top: -5px;
       color: #fff;
-      font-size: 16px;
       cursor: pointer;
       font-weight: 300;
       font-size: 14px;
@@ -361,6 +364,20 @@
       }
     }
 
+    @media (max-width: 1280px) {
+      body {
+        position: relative;
+      }
+
+      span.hint-message::after {
+        content: "Use a desktop browser to view the full story"
+      }
+
+      .blink {
+        display: none;
+      }
+    }
+
   </style>
 </head>
 
@@ -388,7 +405,7 @@
               <h1>...bug's Dynasty took the full control!</h1>
               <br/>
               <br/>
-              <span>Scroll to discover the dynasty</span>
+              <span class="hint-message"></span>
               <br/>
               <br/>
               <img width="25px" src="img/arrow-down.svg" class="blink" />
@@ -589,15 +606,6 @@
       }
 
       function bindEvents() {
-
-        document.addEventListener('mousewheel', function (event) {
-          if (event.deltaY > 0) {
-            nextPage();
-          } else if (event.deltaY < 0) {
-            previousPage();
-          }
-        });
-
         document.addEventListener('keydown', function (event) {
           switch (event.key) {
             case "ArrowUp":
@@ -608,35 +616,6 @@
               break;
           }
         });
-
-        let xDown = null;
-        let yDown = null;
-        document.addEventListener('touchstart', function (evt) {
-          xDown = evt.touches[0].clientX;
-          yDown = evt.touches[0].clientY;
-        }, false);
-        document.addEventListener('touchmove', function (evt) {
-          if (!xDown || !yDown) {
-            return;
-          }
-
-          var xUp = evt.touches[0].clientX;
-          var yUp = evt.touches[0].clientY;
-
-          var xDiff = xDown - xUp;
-          var yDiff = yDown - yUp;
-
-          if (Math.abs(xDiff) < Math.abs(yDiff)) {
-            if (yDiff > 0) {
-              nextPage();
-            } else {
-              previousPage();
-            }
-          }
-
-          xDown = null;
-          yDown = null;
-        }, false);
       }
     })();
   </script>
